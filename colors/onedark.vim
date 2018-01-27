@@ -476,6 +476,16 @@ call s:h("SignifySignAdd", { "fg": s:green })
 call s:h("SignifySignChange", { "fg": s:yellow })
 call s:h("SignifySignDelete", { "fg": s:red })
 
+" mhinz/vim-startify
+call s:h('StartifyBracket', { 'fg': s:colors.white })
+call s:h('StartifyFile', { 'fg': s:colors.white })
+call s:h('StartifyHeader', { 'fg': s:colors.white })
+call s:h('StartifyNumber', { 'fg': s:colors.purple })
+call s:h('StartifyPath', { 'fg': s:colors.blue })
+call s:h('StartifySection', { 'fg': s:colors.green })
+call s:h('StartifySlash', { 'fg': s:colors.white })
+call s:h('StartifySpecial', { 'fg': s:colors.comment_grey })
+
 " neomake/neomake
 call s:h("NeomakeWarningSign", { "fg": s:yellow })
 call s:h("NeomakeErrorSign", { "fg": s:red })
