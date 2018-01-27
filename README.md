@@ -1,8 +1,8 @@
-# onedark.vim
+# SpaceVim-onedark
 
-A dark Vim/Neovim color scheme for the GUI and 16/256/true-color terminals, based on [FlatColor](https://github.com/MaxSt/FlatColor), with colors inspired by the excellent [One Dark syntax theme](https://github.com/atom/one-dark-syntax) for the [Atom text editor](https://atom.io).
+A dark SpaceVim color scheme for GUI and 16/256/true-color terminals, forked from [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim).
 
-![onedark.vim Preview](https://raw.githubusercontent.com/joshdick/onedark.vim/master/img/preview.png)
+![SpaceVim-onedark Preview](https://raw.githubusercontent.com/sei40kr/SpaceVim-onedark/master/img/preview.png)
 
 ## Installation
 
