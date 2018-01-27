@@ -460,6 +460,17 @@ hi link GitGutterAdd    SignifySignAdd
 hi link GitGutterChange SignifySignChange
 hi link GitGutterDelete SignifySignDelete
 
+" easymotion/vim-easymotion
+call s:h('EasyMotionTarget', { 'fg': s:colors.blue })
+call s:h('EasyMotionTarget2First', { 'fg': s:colors.blue })
+call s:h('EasyMotionTarget2Second', { 'fg': s:colors.purple })
+
+" hecal3/vim-leader-guide
+call s:h('LeaderGuideDesc', { 'fg': s:colors.white })
+call s:h('LeaderGuideKeys', { 'fg': s:colors.purple })
+call s:h('LeaderGuideBrackets', { 'fg': s:colors.white })
+call s:h('LeaderGuideGroupName', { 'fg': s:colors.blue })
+
 " mhinz/vim-signify
 call s:h("SignifySignAdd", { "fg": s:green })
 call s:h("SignifySignChange", { "fg": s:yellow })
@@ -469,6 +480,17 @@ call s:h("SignifySignDelete", { "fg": s:red })
 call s:h("NeomakeWarningSign", { "fg": s:yellow })
 call s:h("NeomakeErrorSign", { "fg": s:red })
 call s:h("NeomakeInfoSign", { "fg": s:blue })
+
+" Shougo/vimfiler.vim
+call s:h('vimfilerStatus', { 'fg': s:colors.green })
+call s:h('vimfilerCurrentDirectory', { 'fg': s:colors.green })
+call s:h('vimfilerNonMark', { 'fg': s:colors.blue })
+call s:h('vimfilerMark', { 'fg': s:colors.yellow })
+call s:h('vimfilerNormalFile', { 'fg': s:colors.white })
+call s:h('vimfilerMarkedFile', { 'fg': s:colors.yellow })
+call s:h('vimfilerDirectory', { 'fg': s:colors.blue })
+call s:h('vimfilerOpenedFile', { 'fg': s:colors.blue })
+call s:h('vimfilerClosedFile', { 'fg': s:colors.blue })
 
 " tpope/vim-fugitive
 call s:h("diffAdded", { "fg": s:green })
